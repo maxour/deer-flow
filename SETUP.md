@@ -316,3 +316,13 @@ API: /api/langgraph/_ → Gateway agent runtime
 📋 Logs: logs/{gateway,frontend,nginx}.log
 
 Press Ctrl+C to stop all services
+
+# 禁用块超时限制（推荐设为 0 或 None）
+
+export LANGCHAIN_OPENAI_STREAM_CHUNK_TIMEOUT_S=0
+
+# 或者设置一个更长的时间，比如 10 分钟
+
+export LANGCHAIN_OPENAI_STREAM_CHUNK_TIMEOUT_S=600
+
+export DEER_FLOW_HOME="~/MaxOurC/deer-flow/"
