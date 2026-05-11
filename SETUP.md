@@ -326,3 +326,38 @@ export LANGCHAIN_OPENAI_STREAM_CHUNK_TIMEOUT_S=0
 export LANGCHAIN_OPENAI_STREAM_CHUNK_TIMEOUT_S=600
 
 export DEER_FLOW_HOME="~/MaxOurC/deer-flow/"
+
+Ubuntu
+
+songc@agent-windows:/mnt/c/Users/songc/GitHub/deer-flow$ curl -fsSL https://get.pnpm.io/install.sh | sh -
+==> Downloading pnpm binaries 11.0.9
+
+[WARN] using --force I sure hope you know what you are doing
+Installing pnpm CLI globally from /tmp/tmp.8kqnLmOa1E
+Packages: +1
+
+- Progress: resolved 1, reused 0, downloaded 0, added 0
+  (node:1278) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///tmp/tmp.8kqnLmOa1E/dist/worker.js is n
+  ot specified and it doesn't parse as CommonJS.
+  Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+  To eliminate this warning, add "type": "module" to /tmp/tmp.8kqnLmOa1E/package.json.
+  Progress: resolved 1, reused 1, downloaded 0, added 1, donewas created)
+
+global:
+
+- @pnpm/exe 11.0.9
+
+Done in 6.1s using pnpm v11.0.9
+Appended new lines to /home/songc/.bashrc
+
+Next configuration changes were made:
+export PNPM*HOME="/home/songc/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME/bin:"*) ;;
+\_) export PATH="$PNPM_HOME/bin:$PATH" ;;
+esac
+
+To start using pnpm, run:
+source /home/songc/.bashrc
+songc@agent-windows:/mnt/c/Users/songc/GitHub/deer-flow$
+songc@agent-windows:/mnt/c/Users/songc/GitHub/deer-flow$ source /home/songc/.bashrc
